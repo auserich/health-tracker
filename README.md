@@ -49,6 +49,4 @@ You need the following tools and libraries to run HealthTracker
 
    ```bash
    npm start
-=======
-# health-tracker
 Log and view health activities like meals and exercise
