@@ -1,0 +1,8 @@
+html{
+	min-height: 100%;
+	position: relative;
+}
+body{
+	height: 100%;
+    background-image: linear-gradient(to top, rgb(141, 221, 125),rgb(10, 20, 78));
+}

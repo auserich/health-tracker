@@ -1,0 +1,97 @@
+/* this controls the gradient for every page*/
+html{
+	min-height: 100%;
+	position: relative;
+}
+body{
+	height: 100%;
+    background-image: linear-gradient(to top, rgb(141, 221, 125),rgb(135, 206, 235));
+}
+/* ================================================= */
+.main-header {
+    height:20%;
+    width:100%;
+    text-align:center;
+    border-bottom: 2px solid black;
+    background-color: rgba(135, 207, 235, 0.9);
+  }
+  
+  .main-header h1 {
+    text-align:center;
+    color:white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    font-size: 120px;
+    font-weight: bold;
+  }
+
+  .main-header p { 
+    text-align:right;
+    color:black;
+    margin-right:1%;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .main button {
+    position:absolute;
+    left:5%;
+    top:15%;
+    background-color: rgba(0, 0, 0, 0.26);
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .main button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(255, 255, 255, 1);
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .main-body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    margin:2%;
+    
+  }
+
+  .widget {
+    height:30vh;
+    text-align:center;
+    border: 2px solid black;
+    background-color: rgba(135, 207, 235, 0.9);
+  }
+
+  .widget:hover {
+    background-color: rgba(135, 207, 235, 0.5);
+    border: 2px solid rgb(255, 255, 255, 1);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .widget h1{
+    font-size:30px;
+    font-weight: bold;
+  }
+
+  .widget p{
+    font-size:15px;
+    font-weight: bold;
+  }
+
+  .graph {
+    margin-left:2%;
+    height:40%;
+    width:96%;
+    border: 2px solid black;
+  }

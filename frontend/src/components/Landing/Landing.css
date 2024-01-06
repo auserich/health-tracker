@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(to bottom,rgb(135, 206, 235), rgb(141, 221, 125));
+    height:100vh;
+}
+
+.landing-container{
+    width: 100vw;
+    position: absolute;
+    top:0;
+    height: 20%;
+}
+
+.text-container h1{
+    position:absolute;
+    left:50%;
+    top:20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    -webkit-text-stroke-color: darkgreen;
+    -webkit-text-stroke-width: 2px;
+    margin-top: 5vh;
+    font-size: 60px;
+    font-weight:bold;
+}
+
+.landing-buttons {   
+    display: flex;
+    justify-content: center;
+}
+
+.landing-buttons button{
+    position:fixed;
+    left:50%;
+    top:55%;
+    transform: translate(-130%, -50%);
+    background-color: rgba(0, 0, 0, 0.26);
+    border: 2px solid black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.landing-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(255, 255, 255, 1);
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+.image-container img{
+    margin-top: 20vh;
+    width: 60vh;
+    height: 60vh;
+}
+

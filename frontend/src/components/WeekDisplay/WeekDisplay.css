@@ -1,0 +1,18 @@
+.week-container {
+	max-width: 800px; /* Adjust the max width as needed */
+	margin: 0 auto; /* Center the container horizontally */
+}
+
+.day-col {
+	padding-left: 0.25rem !important;
+	padding-right: 0.25rem !important;
+}
+
+.day.card {
+	height: 200px;
+	width: 200px;
+}
+
+.custom-button {
+	margin: 10px !important; /* Adjust the padding values as needed */
+}
