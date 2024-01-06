@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HealthTracker
 
 HealthTracker allows users to log meals, workouts, water, and sleep to track their overall health.
@@ -53,4 +52,3 @@ You need the following tools and libraries to run HealthTracker
 =======
 # health-tracker
 Log and view health activities like meals and exercise
->>>>>>> origin/main
